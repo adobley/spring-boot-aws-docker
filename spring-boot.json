@@ -1,0 +1,18 @@
+{
+  "containerDefinitions": [
+    {
+      "cpu": 512,
+      "essential": true,
+      "image": "adobley/spring-boot:v_%BUILD_NUMBER%",
+      "memory": 512,
+      "name": "spring-boot",
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "hostPort": 8080
+        }
+      ]
+    }
+  ],
+  "family": "spring-boot"
+}

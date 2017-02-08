@@ -3,7 +3,7 @@
     {
       "cpu": 512,
       "essential": true,
-      "image": "adobley/spring-boot:v_%BUILD_NUMBER%",
+      "image": "adobley/spring-boot-aws-docker:v_%BUILD_NUMBER%",
       "memory": 512,
       "name": "spring-boot",
       "portMappings": [
